@@ -5,8 +5,8 @@
  * Created on 1 février 2017, 09:06
  */
 
-#ifndef CHIPCONFIG_H
-#define	CHIPCONFIG_H
+#ifndef	CHIPCONFIG_H
+#define CHIPCONFIG_H
 
 #define FCY 40000000
 

@@ -6,6 +6,9 @@
 #include "IO.h"
 //#include "main.h"
 
+
+
+
 void InitIO()
 {
     // IMPORTANT : désactiver les entrées analogiques, sinon on perd les entrées numériques
@@ -27,8 +30,11 @@ void InitIO()
     //****** Moteurs ************************
 
     // Configuration des entrées
+    _TRISB15 = 0 ;    //pin B14 B15 étant définis comme des sorties
+    _TRISB14 = 0 ;
+    _TRISC6 = 0 ;
+    _TRISC7 = 0 ;
     
-
     // Configuration des pins remappables    
     //*************************************************************
     // Unlock Registers
